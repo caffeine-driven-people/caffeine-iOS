@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,11 +11,12 @@
 		2DA171907173A169D6BB7D78 /* Pods_caffeine_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613718F3EBB84DFE60AF6BEE /* Pods_caffeine_iOSTests.framework */; };
 		9632EC7C22C8F55D0042FC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632EC7B22C8F55D0042FC2D /* AppDelegate.swift */; };
 		9632EC7E22C8F55D0042FC2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632EC7D22C8F55D0042FC2D /* ViewController.swift */; };
-		9632EC8122C8F55D0042FC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9632EC7F22C8F55D0042FC2D /* Main.storyboard */; };
 		9632EC8322C8F55E0042FC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9632EC8222C8F55E0042FC2D /* Assets.xcassets */; };
 		9632EC8622C8F55E0042FC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9632EC8422C8F55E0042FC2D /* LaunchScreen.storyboard */; };
 		9632EC9122C8F55E0042FC2D /* caffeine_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632EC9022C8F55E0042FC2D /* caffeine_iOSTests.swift */; };
 		9632EC9C22C8F55E0042FC2D /* caffeine_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632EC9B22C8F55E0042FC2D /* caffeine_iOSUITests.swift */; };
+		9632ECAE22C8FB310042FC2D /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632ECAD22C8FB310042FC2D /* extensions.swift */; };
+		9632ECB122C8FB840042FC2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632ECB022C8FB840042FC2D /* BaseViewController.swift */; };
 		9E19668BA4566406C9E070BF /* Pods_caffeine_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7E7C8335BAE138E89F696E /* Pods_caffeine_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +45,6 @@
 		9632EC7822C8F55D0042FC2D /* caffeine-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "caffeine-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9632EC7B22C8F55D0042FC2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9632EC7D22C8F55D0042FC2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9632EC8022C8F55D0042FC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9632EC8222C8F55E0042FC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9632EC8522C8F55E0042FC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9632EC8722C8F55E0042FC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +54,8 @@
 		9632EC9722C8F55E0042FC2D /* caffeine-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caffeine-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9632EC9B22C8F55E0042FC2D /* caffeine_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caffeine_iOSUITests.swift; sourceTree = "<group>"; };
 		9632EC9D22C8F55E0042FC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9632ECAD22C8FB310042FC2D /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		9632ECB022C8FB840042FC2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BD58DA119DEC85FA0067D23B /* Pods-caffeine-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caffeine-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-caffeine-iOSTests/Pods-caffeine-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		E2E50BC399EFE95C3D47DD4F /* Pods-caffeine-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caffeine-iOS.debug.xcconfig"; path = "Target Support Files/Pods-caffeine-iOS/Pods-caffeine-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EB7E7C8335BAE138E89F696E /* Pods_caffeine_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_caffeine_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,11 +126,8 @@
 		9632EC7A22C8F55D0042FC2D /* caffeine-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9632EC7B22C8F55D0042FC2D /* AppDelegate.swift */,
-				9632EC7D22C8F55D0042FC2D /* ViewController.swift */,
-				9632EC7F22C8F55D0042FC2D /* Main.storyboard */,
-				9632EC8222C8F55E0042FC2D /* Assets.xcassets */,
-				9632EC8422C8F55E0042FC2D /* LaunchScreen.storyboard */,
+				9632ECAB22C8FAF20042FC2D /* ReSources */,
+				9632ECA922C8FAD00042FC2D /* Sources */,
 				9632EC8722C8F55E0042FC2D /* Info.plist */,
 			);
 			path = "caffeine-iOS";
@@ -152,6 +151,50 @@
 			path = "caffeine-iOSUITests";
 			sourceTree = "<group>";
 		};
+		9632ECA922C8FAD00042FC2D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9632EC7B22C8F55D0042FC2D /* AppDelegate.swift */,
+				9632ECAF22C8FB4C0042FC2D /* Base */,
+				9632ECAC22C8FB200042FC2D /* Extensions */,
+				9632ECAA22C8FAE00042FC2D /* ViewController */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9632ECAA22C8FAE00042FC2D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9632EC7D22C8F55D0042FC2D /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9632ECAB22C8FAF20042FC2D /* ReSources */ = {
+			isa = PBXGroup;
+			children = (
+				9632EC8222C8F55E0042FC2D /* Assets.xcassets */,
+				9632EC8422C8F55E0042FC2D /* LaunchScreen.storyboard */,
+			);
+			path = ReSources;
+			sourceTree = "<group>";
+		};
+		9632ECAC22C8FB200042FC2D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9632ECAD22C8FB310042FC2D /* extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9632ECAF22C8FB4C0042FC2D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9632ECB022C8FB840042FC2D /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		F68DC4918D0B0EA0B3BBA823 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +205,6 @@
 				4AA7FDEFCE446BD6A2324730 /* Pods-caffeine-iOSUITests.debug.xcconfig */,
 				FA59B8FFC1E2669D13336262 /* Pods-caffeine-iOSUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,7 +319,6 @@
 			files = (
 				9632EC8622C8F55E0042FC2D /* LaunchScreen.storyboard in Resources */,
 				9632EC8322C8F55E0042FC2D /* Assets.xcassets in Resources */,
-				9632EC8122C8F55D0042FC2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +447,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9632EC7E22C8F55D0042FC2D /* ViewController.swift in Sources */,
+				9632ECB122C8FB840042FC2D /* BaseViewController.swift in Sources */,
 				9632EC7C22C8F55D0042FC2D /* AppDelegate.swift in Sources */,
+				9632ECAE22C8FB310042FC2D /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9632EC7F22C8F55D0042FC2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9632EC8022C8F55D0042FC2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9632EC8422C8F55E0042FC2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
